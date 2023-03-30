@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+.container-start {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
