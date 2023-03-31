@@ -1,1 +1,55 @@
-<p>bmi-calculator works!</p>
+<div class="container-BMI">
+  <div class="card text-center">
+    <div class="card-body">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputHeight" class="form-label">Height (cm)</label>
+          <input type="text" class="form-control" id="inputHeight" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputWeight" class="form-label">Weight (kg)</label>
+          <input type="text" class="form-control" id="inputWeight" />
+        </div>
+        <div class="col-12">
+          <label for="inputAge" class="form-label">Age</label>
+          <input type="text" class="form-control" id="inputAge" />
+        </div>
+        <div class="col-md-12">
+          <label for="radioGender" class="form-label">Gender</label>
+        </div>
+        <div class="col-md-12">
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="radioGenderM"
+              value="option1"
+            />
+            <label class="form-check-label" for="radioGenderM">M</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="radioGenderF"
+              value="option2"
+            />
+            <label class="form-check-label" for="radioGenderF">F</label>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <button
+            type="submit"
+            class="btn text-white font-weight-bold"
+            style="background-color: #198754"
+          >
+            Calculate
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
