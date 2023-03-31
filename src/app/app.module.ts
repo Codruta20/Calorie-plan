@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { StartComponent } from './start/start.component';
 import { FooterComponent } from './footer/footer.component';
+import { BMICalculatorComponent } from './bmi-calculator/bmi-calculator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     StartComponent,
-    FooterComponent
+    FooterComponent,
+    BMICalculatorComponent
   ],
   imports: [
     BrowserModule,
