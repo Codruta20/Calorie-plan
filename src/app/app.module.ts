@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { StartComponent } from './start/start.component';
 import { FooterComponent } from './footer/footer.component';
 import { BMICalculatorComponent } from './bmi-calculator/bmi-calculator.component';
+import { BMIResultComponent } from './bmi-result/bmi-result.component';
+import { CreatePlanComponent } from './create-plan/create-plan.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { BMICalculatorComponent } from './bmi-calculator/bmi-calculator.componen
     NavbarComponent,
     StartComponent,
     FooterComponent,
-    BMICalculatorComponent
+    BMICalculatorComponent,
+    BMIResultComponent,
+    CreatePlanComponent
   ],
   imports: [
     BrowserModule,
