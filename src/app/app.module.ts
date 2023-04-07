@@ -18,13 +18,10 @@ import { CreatePlanComponent } from './create-plan/create-plan.component';
     FooterComponent,
     BMICalculatorComponent,
     BMIResultComponent,
-    CreatePlanComponent
+    CreatePlanComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
